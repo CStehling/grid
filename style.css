@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Teko', sans-serif;
+}
+
+body {
+  background: #293138;
+  padding: 24px 66px;
+}
+
+header {
+  display: flex;
+  gap: 32px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 37px;
+}
